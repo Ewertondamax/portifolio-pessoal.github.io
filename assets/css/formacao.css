@@ -1,6 +1,6 @@
 .formacao {
-  background: #141414;
-  color: #ffff;
+  background: #ffffff;
+  color: #2c2727
 }
 
 .formacao-container {
@@ -34,11 +34,11 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color: #2c2727;
 }
 
 .formacao-texto strong {
-  color: #ffffff;
+  color: #4c46d8;
 }
 
 .faculdade-lista {
@@ -50,17 +50,18 @@
 
 .faculdade {
   flex: 1;
-  background: #000000;
+  background: #e0e0e0;
   padding: 20px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
 }
 
+
 .faculdade-tipo {
-  font-size: .0875rem;
+  font-size: .0879rem;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: #0dd70d;
   margin-bottom: 10px;
 }
 
@@ -94,7 +95,7 @@
 .formacao-extra h3 {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: #101010;
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;

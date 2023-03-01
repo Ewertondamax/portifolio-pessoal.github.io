@@ -3,25 +3,27 @@
 }
 
 .footer-container {
+  background-color: #8f8f8f;
   max-width: 1200px;
   padding: 120px 20px 60px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
+  gap: 20px;
   align-items: center;
 }
 
 .footer-texto {
   font-size: 1.5rem;
   line-height: 1.33;
-  color: #cccccc;
+  color: #f3e8e8;
 }
 
 .footer-contato li {
   font-weight: bold;
+  margin: 25px;
   font-size: 2.2 5rem;
-  line-height: 1.1;
+  line-height: 2.1;
   color: #ffffff;
   margin-bottom: 30px;
 }
@@ -33,7 +35,7 @@
 .footer-copy {
   grid-column: 1/-1;
   font-size: 1.125rem;
-  color: #8f8f8f;
+  color: #080808;
 }
 
 @media (max-width:800px) {
@@ -45,4 +47,41 @@
   .footer-contato li {
     font-size: 1.5rem;
   }
+}
+
+.redes-sociais li {
+  display: inline-block;
+  padding: 06px 7px;
+}
+
+.redes-sociais a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  text-indent: -99999px;
+}
+
+.github {
+  background-image: url(../img/github.png);
+}
+
+.linkedin {
+  background-image: url(../img/linkedin.png);
+}
+
+.twitter {
+  background-image: url(../img/twitter.png);
+}
+
+.instagram {
+  background-image: url(../img/instagram.png);
+
+}
+
+.facebook {
+  background-image: url(../img/facebook.png);
+}
+
+.youtube {
+  background-image: url(../img/youtube.png);
 }
